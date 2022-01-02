@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="odor_n <= 0.5\ngini = 0.5\nsamples = 5686\nvalue = [2932, 2754]\nclass = 독", fillcolor="#fdf7f3"] ;
+1 [label="gini = 0.281\nsamples = 3212\nvalue = [544, 2668]\nclass = 식용", fillcolor="#61b1ea"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.067\nsamples = 2474\nvalue = [2388, 86]\nclass = 독", fillcolor="#e68640"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
